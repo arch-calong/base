@@ -4,7 +4,7 @@
 
 pkgname=base
 pkgver=3
-pkgrel=2
+pkgrel=3
 pkgdesc='Minimal package set to define a basic Manjaro Linux installation'
 url='https://manjaro.org'
 arch=('any')
@@ -25,8 +25,9 @@ depends=(
   # networking, ping, etc
   'iputils' 'iproute2'
 )
-optdepends=('linux: bare metal support')
+optdepends=(
+  'linux: bare metal support'
+)
 
-# vim: ts=2 sw=2 et:
-
+# vim:set sw=2 sts=-1 et:
 
